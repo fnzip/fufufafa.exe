@@ -1,5 +1,5 @@
 {
-  "name": "fufufafa.exe",
+  "name": "fufufafa-exe",
   "compatibility_date": "2025-03-21",
   "pages_build_output_dir": "./public",
   "main": "src/index.ts",
