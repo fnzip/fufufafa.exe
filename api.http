@@ -1,0 +1,13 @@
+### Test /ai endpoint with POST method
+POST http://localhost:8787/ai
+Content-Type: application/json
+
+{
+  "quote": "nasi bungkus"
+}
+
+### Test /random endpoint with GET method
+GET http://localhost:8787/random
+
+### Test invalid endpoint
+GET http://localhost:8787/invalid

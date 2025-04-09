@@ -1,0 +1,11 @@
+#app {
+  height: 100vh;
+  max-width: 480px; /* Adjust this value to match the typical mobile screen width */
+  margin: 0 auto; /* Center the element horizontally */
+  padding: 16px; /* Add padding for better spacing on smaller screens */
+}
+
+.window {
+  max-width: 100%; /* Ensure windows fit within the screen width */
+  word-wrap: break-word; /* Prevent text overflow */
+}

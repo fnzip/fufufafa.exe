@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fufufafa.exe</title>
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">fufufafa.exe</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+
+        <div class="window-body">
+          <form action="" id="form">
+            <div class="field-row-stacked">
+              <label for="text20">Give me a sign!</label>
+              <textarea
+                id="text20"
+                rows="4"
+                autofocus
+                placeholder="omke gams"
+              ></textarea>
+              <span id="error-message" class="status-bar-field" style="color: red; display: none;" aria-live="polite">This field cannot be empty.</span>
+            </div>
+            <div style="margin-top: 8px">
+              <button type="submit" id="submitBtn" aria-label="Submit form">Submit</button>
+              <button type="button" id="random" aria-label="Generate random result">Random</button>
+            </div>
+          </form>
+
+          <div style="margin-top: 8px">
+            <a href="#" type="button" target="_blank">Github</a> &nbsp;/&nbsp;
+            <a href="https://fufufafapi.vanirvan.my.id" type="button" target="_blank">Credit</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="result"></div>
+    </div>
+
+    <template id="result-template">
+      <div class="window" style="margin-top: 8px">
+        <div class="title-bar">
+          <div class="title-bar-text">result.exe</div>
+          <div class="title-bar-controls">
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+
+        <div class="window-body">
+          <img
+            id="result-image"
+            src=""
+            alt=""
+            style="width: 100%; height: auto; min-height: 100px;"
+          />
+          <div style="margin-top: 8px;">
+            <!-- <button type="button" onclick="handleCopy(this)" id="copy">Copy</button> -->
+            <button type="button" onclick="handleDownload(this)" id="save">Download</button>
+            <a href="#" type="button" id="doksli" target="_blank">Doksli</a>
+          </div>
+        </div>
+      </div>
+    </template>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "fff",
+  "compatibility_date": "2025-03-21",
+  "main": "src/index.ts",
+  "assets": {
+    "directory": "./public"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
